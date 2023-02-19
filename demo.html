@@ -4,7 +4,32 @@
     
  </title>
 <body>
-   <img src="589781.jpg">
-   <h1 style="color: azure">hey supp my name is khan.....</h1>
+   <body>
+      <head>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+          </script>
+      </head>
+        
+      <body style="text-align:center;" id="body">
+          <h1>Enter Your Name</h1>
+        
+      <input id="name" 
+             type="text">
+      <button type="button" 
+              onclick="EnterName()">Submit</button>
+      <p style="color:green" 
+         id="demo"></p>
+        
+        
+      <script>
+          function EnterName()
+          {
+              var x= document.getElementById("name").value;
+            
+              document.getElementById("demo").innerHTML = 
+                  "Welcome to Java Dynamic Programing   "+ x ;
+          }
+      </script>
+      
 </body>
 </html>
