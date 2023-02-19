@@ -7,8 +7,7 @@
       <head>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
           </script>
-      </head>
-        
+      </head> 
       <body style="text-align:center;" id="body",body background="606664.png">
           <h1>Enter Your Name</h1>
         
@@ -16,15 +15,12 @@
              type="text">
       <button type="button" 
               onclick="EnterName()">Submit</button>
-      <p style="color:green" 
+      <p style="color:rgb(122, 128, 0)" 
          id="demo"></p>
-        
-        
       <script>
           function EnterName()
           {
               var x= document.getElementById("name").value;
-            
               document.getElementById("demo").innerHTML = 
                   "Welcome to Java Dynamic Programing   "+ x ;
           }
